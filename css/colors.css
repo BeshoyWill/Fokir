@@ -1,0 +1,12 @@
+/* ---------- Colors Variables ---------- */
+:root {
+    --primary-color: #FF305B;
+    --secondary-color: #555555;
+    --third-color: #777777;
+    --hover-color: #EC2403;
+    --bg-color: #333333;
+    --line-color: #CCCCCC;
+    --services-color: #F1F1F1;
+    --light-color: #FFFFFF;
+    --dark-color: #000000;
+}

@@ -1,0 +1,121 @@
+
+/* ---------- Animating With Keyframes ---------- */
+
+/*--Animating The Text In The Home Section--*/
+@keyframes blink-caret {
+    to {
+        border-left: 3px solid rgba(0, 0, 0, 0.3);
+    }
+}
+
+@keyframes changing-word {
+
+    0%,
+    50% {
+        content: 'Designer';
+    }
+
+    51%,
+    100% {
+        content: 'Developer';
+    }
+}
+
+@keyframes typing-text {
+
+    10%,
+    15%,
+    30%,
+    35%,
+    50%,
+    55%,
+    70%,
+    75%,
+    90%,
+    95% {
+        width: 0;
+    }
+
+    5%,
+    20%,
+    25%,
+    40%,
+    45%,
+    60%,
+    65%,
+    80%,
+    85%,
+    100% {
+        width: calc(100% + 8px);
+    }
+}
+
+@keyframes moving-text {
+
+    10%,
+    15%,
+    30%,
+    35%,
+    50%,
+    55%,
+    70%,
+    75%,
+    90%,
+    95% {
+        margin-left: 0%;
+    }
+
+    5%,
+    20%,
+    25%,
+    40%,
+    45%,
+    60%,
+    65%,
+    80%,
+    85%,
+    100% {
+        margin-left: 10%;
+    }
+}
+
+/*--Animating The Background Layer In The About Section--*/
+@keyframes moving-layer {
+    from {
+        top: 100%;
+        opacity: 0;
+    }
+
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+
+/* ------------ Animating With Animation ----------- */
+
+@keyframes border-shaking {
+    0% {
+        border: none;
+        outline: none;
+    }
+    25% {
+        border: 2px solid rgba(0, 0, 0, 0.4);
+        outline: 1px solid var(--primary-color);
+        outline-offset: 1px;
+     }
+    50% {
+        border: none;
+        outline: none;
+     }
+    75% {
+        border: none;
+        outline: 1px solid var(--primary-color);
+        outline-offset: 1px;
+     }
+    100% {
+        border: 2px solid rgba(0, 0, 0, 0.4);
+        outline: none;
+     }
+   }

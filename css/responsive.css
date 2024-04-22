@@ -1,0 +1,43 @@
+/* ---------- Media Queries ---------- */
+
+/* Small devices such as small phones (768px and down) */
+
+@media screen and (max-width: 850px) {
+    .navbar {
+        padding: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .navbar a.logo-name {
+        float: none;
+        display: block;
+        padding-left: 20px;
+    }
+
+    .navbar ul.nav-items {
+        float: none;
+        display: none;
+    }
+
+    .navbar ul.nav-items li {
+        float: none;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (max-width: 1280px) {
+
+
+}
